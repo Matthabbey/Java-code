@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49c562b4-6f08-45f8-aaa4-9d5d27334d7d" name="Changes" comment="strings and escape sequences">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/starterbeginner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/starterbeginner/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="49c562b4-6f08-45f8-aaa4-9d5d27334d7d" name="Changes" comment="strings and escape sequences" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678392482120</updated>
     </task>
+    <task id="LOCAL-00001" summary="strings and escape sequences">
+      <created>1678441000900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678441000900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
