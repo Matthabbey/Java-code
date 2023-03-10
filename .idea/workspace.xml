@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49c562b4-6f08-45f8-aaa4-9d5d27334d7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="49c562b4-6f08-45f8-aaa4-9d5d27334d7d" name="Changes" comment="strings and escape sequences">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/starterbeginner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/starterbeginner/Main.java" afterDir="false" />
     </list>
@@ -91,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="strings and escape sequences" />
+    <option name="LAST_COMMIT_MESSAGE" value="strings and escape sequences" />
   </component>
 </project>
