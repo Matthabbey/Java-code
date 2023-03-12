@@ -110,6 +110,8 @@ public class Main {
         int math2 = (int) Math.ceil(1.2);
         System.out.println(math2);
 
+
+            //NUMBER FORMATTING
         NumberFormat currency = NumberFormat.getCurrencyInstance();
         NumberFormat percent = NumberFormat.getPercentInstance(); //
         String result4 = NumberFormat.getPercentInstance().format(0.2);
@@ -119,12 +121,16 @@ public class Main {
         String result1 = currency.format(123456789.892);
         System.out.println(result1);
 
+        //SCANNER
         Scanner scan = new Scanner(System.in);
         System.out.print("Name:");
         byte name = scan.nextByte();
         String name1 = scan.nextLine().trim();
         System.out.println("You are " + name1 + " years old");
         System.out.println("You are "+ name1);
+
+
+
 
             //       PROJECT MORTGAGE CALCULATOR
         final byte PERCENT = 100;
@@ -133,18 +139,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Principal:");
         int amount = scanner.nextInt();
-//        System.out.println("Principal:" + amount);
 //
         System.out.print("Rate: ");
-        float r = (scanner.nextFloat() / PERCENT) / MONTHS;
-//        System.out.print("Annual Interest Rate:" + r);
+        float rate = (scanner.nextFloat() / PERCENT) / MONTHS;
 //
         System.out.print("Period (Year):");
         int year = scanner.nextInt();
         int numOfPayment = year * MONTHS;
-//        System.out.println("Period (Year):" + year);
 
-        double power = Math.pow(Double.parseDouble(String.valueOf(1 + r)), numOfPayment);
+        double power = Math.pow(Double.parseDouble(String.valueOf(1 + rate)), numOfPayment);
         int output = (int) (amount *  power / power - 1);
 
         System.out.print("Mortgage: " + NumberFormat.getCurrencyInstance().format(output));
