@@ -153,3 +153,4 @@ public class Main {
         System.out.print("Mortgage: " + NumberFormat.getCurrencyInstance().format(output));
     }
 }
+
