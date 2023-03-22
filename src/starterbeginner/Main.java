@@ -121,13 +121,13 @@ public class Main {
         String result1 = currency.format(123456789.892);
         System.out.println(result1);
 
-        //SCANNER
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Name:");
-        byte name = scan.nextByte();
-        String name1 = scan.nextLine().trim();
-        System.out.println("You are " + name1 + " years old");
-        System.out.println("You are "+ name1);
+//        //SCANNER
+//        Scanner scan = new Scanner(System.in);
+//        System.out.print("Name:");
+//        byte name = scan.nextByte();
+//        String name1 = scan.nextLine().trim();
+//        System.out.println("You are " + name1 + " years old");
+//        System.out.println("You are "+ name1);
 
 
 
@@ -135,10 +135,19 @@ public class Main {
             //       PROJECT MORTGAGE CALCULATOR
         final byte PERCENT = 100;
         final byte MONTHS = 12;
-
+        int amount = 0;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Principal:");
-        int amount = scanner.nextInt();
+
+        while (true) {
+            System.out.print("Principal:");
+            amount = scanner.nextInt();
+            if (amount <= 10000 && amount <= 1_000_000){
+            break;}
+            System.out.println("Principal not valid");
+            System.out.println("Principal not valid");
+            System.out.println("Principal not valid");
+
+        }
 //
         System.out.print("Rate: ");
         float rate = (scanner.nextFloat() / PERCENT) / MONTHS;
